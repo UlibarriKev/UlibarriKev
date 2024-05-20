@@ -1,4 +1,4 @@
-Sample DAX Measure to Count Specific Orders
+Sample DAX Measure to Return % Count Specific Orders
 
 
 % of # of VMI Orders = 
