@@ -94,3 +94,7 @@ TABLE Measure KEY-DAX-Calendar =
             "Day Number",DayNumber
         )
     )
+Measure Upper Boundary = 
+
+        SUMX('FACT-Monthly SAP VA05', 'FACT-Monthly SAP VA05'[FACT-Total and Average.Average Sales]+'FACT-Monthly SAP VA05'[Standard Deviation])
+    
